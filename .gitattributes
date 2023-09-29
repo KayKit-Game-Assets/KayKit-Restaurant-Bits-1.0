@@ -1,0 +1,12 @@
+# Set line endings
+* text=auto eol=lf
+
+# Only include the addons folder when downloading from the Asset Library.
+/**        export-ignore
+/addons    !export-ignore
+/addons/** !export-ignore
+/addons/kaykit_restaurant_bits/** export-ignore
+/addons/kaykit_restaurant_bits/Assets !export-ignore
+/addons/kaykit_restaurant_bits/Assets/** !export-ignore
+/addons/kaykit_restaurant_bits/Assets/fbx export-ignore
+/addons/kaykit_restaurant_bits/Assets/fbx(unity) export-ignore
